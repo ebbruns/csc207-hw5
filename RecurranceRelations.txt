@@ -1,0 +1,21 @@
+ f0(1) = 1. f0(n) = n + f0(n/2).
+ f0(n) = 2n - 1
+
+ f1(1) = 1. f1(n) = n + f1(n-1).
+ f1(n) = (n/2)(n+1)")
+
+ f2(1) = 1. f2(n) = c + f2(n-1), for some constant c.
+ f2(n) = c * n
+
+ f3(1) = 1. f3(n) = c + f3(n/2), for some constant c.
+ f3(n) = log2(n) + 1
+ nb: log2(n) means log base 2 of n
+
+ f4(1) = 1. f4(n) = n + 2*f4(n/2).
+ f4(n) = n * (log2(n) + 1)
+
+ f5(1) = 1. f5(n) = c + 2*f5(n/2), for some constant c.
+ f5(n) = (c)(n-1) + n
+
+ f6(1) = 1. f6(n) = c + 2*f6(n-1), for some constant c.
+ f6(n) = (c)(2^(n-1) - 1) + 2^(n-1)
